@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "styled-components"
 import Nav from "../../components/Nav"
-import { UpcomingEvents, PastEvents } from "./utils"
+import { UpcomingEvents, PastEvents } from "../../../utils"
 const Container = styled.div`
-  background: linear-gradient(to bottom right, #7800b2ff, #008e82ff);
+  background-color: rgb(25, 25, 25);
   height: 100vh;
   font-size: 1rem;
   display: flex;
@@ -12,14 +12,14 @@ const Container = styled.div`
 `
 
 const Box = styled.div`
-  background-color: rgb(25, 25, 25);
+  background: linear-gradient(to bottom right, #7800b2ff, #008e82ff);
   width: 55vw;
   height: 95vh;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
   text-align: center;
-  color: rgb(150, 150, 150);
+  color: rgb(200, 200, 200);
 `
 const Header = styled.div`
   font-size: 2rem;
